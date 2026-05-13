@@ -32,42 +32,27 @@ Password: User
 --------------------------------
 Command List
 --------------------------------
-Help: Displays all commands
-
-About: Displays information about the OS
-
-Echo: Echoes the next message entered.
-
-Logout: Logs user out of OS. *Note does not return them to the login screen.
-
-WhoAmi: Displays information about the current user
-
-Createuser: Creates a new user. Only admins can create new users.
-
-Timer: Sets a timer for X seconds
-
-Listusers: List all users within the OS
-
-Listfiles: List all files within the current directory
-
-Readall: Reads all files within the current directory
-
-Read:  Reads a specific file
-
-Mkdir: Make a new directory with inputted name
-
-Movedir: Moves into specified directory *Slightly bugged
-
-Createfile: Creates a new file with the given name
-
-Deletefile: Deletes specified file
-
-Writefile: Writes text to a specified file. If a file doesn’t exist a new one is created. *Warning, while the console will display a file not found exception, this is really just to prompt the creation of a new file. 
-
-
-moveFile: Moves files to a new path.
-moveDir: Moves into specified directory.
-*Readall was used here to display all files present within newDir.
-
-
-Returns user to root directory.
+  "help | Displays all commands.",
+  "clear | Clears console window.",
+  "about | Displays information about the OS.",
+  "echo <message> | Echoes the next message entered.",
+  "restart | Restarts the OS.",
+  "shutdown | Shuts down the OS.",
+  "login | Return to login screen",
+  "logout | Logout User",
+  "whoami | Displays information about the current user.",
+  "createuser <username> <password> <user/admin> | Creates a new user. Only admins can create new users.",
+  "timer <seconds> | Sets a timer for X seconds.",
+  "listusers | Lists all users of the OS.",
+  "listfiles | Lists all files within the current directory.",
+  "readall | Reads all files within the current directory.",
+  "read <file_name> | Reads a specific file.",
+  "mkdir <directory_name> | Makes a new directory with the inputted name.",
+ "listdir | Lists the current directory.",
+ "createfile <file_name> | Creates a new file with the given name.",
+ "deletefile <file_name> | Deletes specified file.",
+  "deletedir | Deletes current directory (Warning unstable, admin only)",
+  "writefile <file_name> <text> | Writes text to a specified file.",
+  "movefile <file_name> <new_path> | Moves a file to a new path.",
+  "movedir <directory_name> | Moves into specified directory.",
+  "rootdir | Returns to root directory."
