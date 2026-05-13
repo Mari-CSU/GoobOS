@@ -32,27 +32,50 @@ Password: User
 --------------------------------
 Command List
 --------------------------------
-  "help | Displays all commands.",
-  "clear | Clears console window.",
-  "about | Displays information about the OS.",
-  "echo <message> | Echoes the next message entered.",
-  "restart | Restarts the OS.",
-  "shutdown | Shuts down the OS.",
-  "login | Return to login screen",
-  "logout | Logout User",
-  "whoami | Displays information about the current user.",
-  "createuser <username> <password> <user/admin> | Creates a new user. Only admins can create new users.",
-  "timer <seconds> | Sets a timer for X seconds.",
-  "listusers | Lists all users of the OS.",
-  "listfiles | Lists all files within the current directory.",
-  "readall | Reads all files within the current directory.",
-  "read <file_name> | Reads a specific file.",
-  "mkdir <directory_name> | Makes a new directory with the inputted name.",
- "listdir | Lists the current directory.",
- "createfile <file_name> | Creates a new file with the given name.",
- "deletefile <file_name> | Deletes specified file.",
-  "deletedir | Deletes current directory (Warning unstable, admin only)",
-  "writefile <file_name> <text> | Writes text to a specified file.",
-  "movefile <file_name> <new_path> | Moves a file to a new path.",
-  "movedir <directory_name> | Moves into specified directory.",
-  "rootdir | Returns to root directory."
+  help | Displays all commands.
+
+clear | Clears console window.
+
+about | Displays information about the OS.
+
+echo <message> | Echoes the next message entered.
+
+restart | Restarts the OS.
+
+shutdown | Shuts down the OS.
+
+login | Return to login screen.
+
+logout | Logout User.
+
+whoami | Displays information about the current user.
+
+createuser <username> <password> <user/admin> | Creates a new user. Only admins can create new users.
+
+timer <seconds> | Sets a timer for X seconds.
+
+listusers | Lists all users of the OS.
+
+listfiles | Lists all files within the current directory.
+
+readall | Reads all files within the current directory.
+
+read <file_name> | Reads a specific file.
+
+mkdir <directory_name> | Makes a new directory with the inputted name.
+
+listdir | Lists the current directory.
+
+createfile <file_name> | Creates a new file with the given name.
+
+deletefile <file_name> | Deletes specified file.
+
+deletedir | Deletes current directory (Warning unstable, admin only).
+
+writefile <file_name> <text> | Writes text to a specified file.
+
+movefile <file_name> <new_path> | Moves a file to a new path.
+
+movedir <directory_name> | Moves into specified directory.
+
+rootdir | Returns to root directory.
