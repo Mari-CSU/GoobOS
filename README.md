@@ -1,4 +1,6 @@
 # GoobOS
+*OS .iso is located in GoobOS.zip.
+
 The project I developed is known as GoobOS. For this project I wanted to develop my own OS, but I wanted to do it in a language I was most comfortable with. I’m mainly experienced in C# and Java, which is a problem since OSs are typically made from lower level languages such as C and Assembly. I was adamant about working around this, so I went to the internet in search of solutions. 
 
 Throughout my searching I was able to stumble upon Cosmos. Cosmos is an open source operating system development kit which uses Visual Studio and C# as a development enviroment.
